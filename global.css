@@ -1,0 +1,124 @@
+/* Estilos do Guia */
+body{
+	background-color: #ecf0f1;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.cores_primarias div, .cores_secundarias div {
+	padding: 120px 10px 10px 10px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	color: black;
+	box-shadow: 0 -40px 0 0 white inset, 0px 0px 5px 0 rgba(0,0,0,.125);
+	text-transform: uppercase;
+}
+
+.tipografia_titulos > div{
+	margin-bottom: 40px;
+}
+
+.tipografia_corpo {
+	max-width: 500px;
+}
+
+.botoes > div {
+	margin-bottom: 20px;
+}
+
+.formularios {
+	max-width: 500px;
+}
+input[type=text]{
+    background-color: #fff;
+	width: 100%;
+	max-width: 500px;
+	min-width: 50px;
+}
+
+article {
+	margin-bottom: 20px;
+}
+
+article h1 {
+	margin: 0px;
+	font-size: 16px;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+	text-align: right;
+	padding-right: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: auto;
+}
+
+article .styles {
+	border-radius: 2px;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #d2d2d2; 
+	width: 50%;
+	float: left;
+}
+
+@media screen and (max-width: 600px) {
+	article h1 {
+		width: 100%;
+		padding: 0 20px;
+		text-align: left;
+		box-sizing: border-box;
+	}
+	article .styles {
+		width: 100%;
+		padding: 0 20px;
+		float: left;
+		box-sizing: border-box;
+	}
+}
+
+section > h2 {
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	color: rgba(0,0,0,.5);
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+section::after, section::before, article::after, article::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+body > h1 {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+h1{
+		margin-top: 0px !important;
+}
+#head{
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	background-color: #e74c3c;
+	height: 100%;
+	width: auto;
+	margin-top: 0px !important;
+	margin-bottom: 20px;
+}
+#head > h1{
+	text-transform: uppercase;
+}
